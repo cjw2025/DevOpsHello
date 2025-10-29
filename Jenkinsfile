@@ -4,6 +4,7 @@ pipeline {
   environment {
     DOCKERHUB_REPO = 'cjw13/hello123' 
     IMAGE_TAG = '20251028-2320'
+    DOCKERHUB_CRED = 'dockerhub-creds'
 
     EC2_HOST       = 'ec2-3-16-180-43.us-east-2.compute.amazonaws.com'
     EC2_USER       = 'ubuntu'
